@@ -1,0 +1,127 @@
+/* Write your CSS code here. */
+.emojis-container {
+  text-align: center;
+  padding: 24px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.ulEmojis {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 55px;
+  width: 58px;
+}
+.li {
+  margin: 25px;
+  cursor: pointer;
+}
+
+.feedback-container {
+  text-align: center;
+}
+
+.love {
+  height: 73px;
+  width: 84px;
+}
+.main {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+}
+.sub-main {
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  min-height: 50vh;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-main {
+    padding: 32px;
+  }
+  .main {
+    padding: 34px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sub-main {
+    padding: 64px;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+
+.img {
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.emoji-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-title {
+    font-size: 12px;
+  }
+}
+
+.love {
+  width: 60px;
+  height: 54px;
+}
+
+.thank-you {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.feedback-summary {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+}
